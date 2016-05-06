@@ -1,0 +1,77 @@
+.vacation .vacation__calendar{
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.vacation .vacation__calendar .calendar__header{
+    display: table;
+    width: 100%;
+    height: 14.2857142857%;
+    text-align: center;
+}
+
+.vacation .vacation__calendar .calendar__row{
+    display: table-row;
+    width: 100%;
+}
+
+.vacation .vacation__calendar .calendar__row--week{
+    text-transform: uppercase;
+    font-size: 75%;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__row.calendar__row--week label{
+    cursor: default;
+}
+
+.vacation .vacation__calendar .calendar__header .header__month-name{
+    font-weight: bold;
+}
+
+.vacation .vacation__calendar .calendar__header .header__month-name,
+.vacation .vacation__calendar .calendar__header .header__month-select,
+.vacation .vacation__calendar .calendar__body .calendar__cell{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__cell{
+    cursor: pointer;
+    font-weight: normal;
+    border: 2px solid transparent;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__cell.cell--today{
+    border-color: #000;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__cell.cell--boundary span{
+    opacity: 0.25;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__cell.active{
+    color: HighlightText;
+    background-color: Highlight;
+    font-weight: bold;
+}
+
+.vacation .vacation__calendar .calendar__body .calendar__cell > input{
+    display: none;
+}
+
+.vacation .vacation__calendar .calendar__boundary{
+
+}
+
+.vacation .vacation__calendar .calendar__body{
+    table-layout: fixed;
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 85.7142857142%;
+}
+
+.vacation .vacation__calendar .calendar__header .header__month-select{
+    width: 24px;
+}
